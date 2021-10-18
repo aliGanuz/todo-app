@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-//Importing Components
 import Form from "./components/Form";
 import TodoList from "./components/TodoList";
 
@@ -13,7 +12,7 @@ function App() {
 
   //RUN ONCE when the app start
   useEffect(() => {
-    getLocalTodos();2
+    getLocalTodos();
   }, []);
 
   //USE EFFECT
